@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 * {
     margin: 0;
     padding: 0;
 }
 
 .sidebar {
-    background-color: #c35555;
-    width: 20vw;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(185, 181, 181);
+    width: 434px;
     height: 100vh;
+    font-family: Bruno Ace SC', cursive;
 }
 
 .sidebar nav {
@@ -17,10 +18,14 @@
 
 }
 
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
 .sidebar nav li {
     list-style: none;
     padding: 10px 0px;
-    font-size: 35px;
+    font-size: 25px;
 
 }
 
@@ -39,4 +44,50 @@
     width: 70vw;
     margin: 144px auto;
     display: flex;
+    justify-content: space-around;
 }
+
+.devPic img {
+    height: 50vh;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.hello{
+font-size: 40px;
+}
+
+.name{
+font-size: 35px;
+font-family: 'Lobster', cursive;
+}
+
+.about{
+font-size: 25px;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+.buttons button{
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: azure;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    color: dodgerblue;
+    background-color: wheat;
+}
+
+
