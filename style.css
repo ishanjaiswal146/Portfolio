@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');  
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +11,7 @@
     background-color: rgb(185, 181, 181);
     width: 434px;
     height: 100vh;
-    font-family: Bruno Ace SC', cursive;
+    font-family: 'Chivo', sans-serif;
 }
 
 .sidebar nav {
@@ -18,10 +19,11 @@
 
 }
 
-.sidebar nav li a{
+.sidebar nav li a {
     text-decoration: none;
     color: black;
 }
+
 .sidebar nav li {
     list-style: none;
     padding: 10px 0px;
@@ -30,7 +32,7 @@
 }
 
 .main {
-    background-color: #c1b56a;
+    /* background-color: #c1b56a; */
     width: 90vw;
 }
 
@@ -39,7 +41,7 @@
 }
 
 .infoContainer {
-    background-color: #83e2a3;
+    /* background-color: #83e2a3; */
     height: 50vh;
     width: 70vw;
     margin: 144px auto;
@@ -58,23 +60,24 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.hello{
-font-size: 40px;
+.hello {
+    font-size: 40px;
 }
 
-.name{
-font-size: 35px;
-font-family: 'Lobster', cursive;
+.name {
+    font-size: 35px;
+    font-family: 'Source Code Pro', monospace;
 }
 
-.about{
-font-size: 25px;
+.about {
+    font-size: 25px;
 }
 
-.buttons{
+.buttons {
     margin-top: 20px;
 }
-.buttons button{
+
+.btn {
     padding: 5px 15px;
     border-radius: 20px;
     color: azure;
@@ -85,9 +88,66 @@ font-size: 25px;
     cursor: pointer;
 }
 
-.buttons button:hover{
+.btn-sm {
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+
+.btn:hover {
     color: dodgerblue;
     background-color: wheat;
 }
 
+.contactform {
+    font-family: 'Chivo', sans-serif;
+    padding-top: 144px;
+    padding: 0px 35px;
+}
 
+.contactform h1 {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.contactform form div {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contactform form div {
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0px 0px 0px;
+    padding: 3px;
+}
+
+#emailHelp {
+    font-size: 9px;
+    color: red;
+    margin: 0px 5px;
+}
+
+#form-check {
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+#form-check input {
+    width: 20px;
+    margin-right: 12px;
+}
+.blogItem{
+margin: 20px;
+font-family: 'Chivo', sans-serif;
+}
+
+.blogItem h1{
+    font-family: 'Chivo', sans-serif;
+    margin: 23px;
+}
+
+.blogItem p{
+    font-family: 'Source Code Pro', monospace;
+}
