@@ -9,9 +9,10 @@
 
 .sidebar {
     background-color: rgb(185, 181, 181);
-    width: 434px;
     height: 100vh;
     font-family: 'Chivo', sans-serif;
+    transition: transform 0.3s ease-in;
+    position: absolute;
 }
 
 .sidebar nav {
@@ -103,6 +104,7 @@
     font-family: 'Chivo', sans-serif;
     padding-top: 144px;
     padding: 0px 35px;
+    margin: 0 88px;
 }
 
 .contactform h1 {
@@ -138,16 +140,103 @@
     width: 20px;
     margin-right: 12px;
 }
-.blogItem{
-margin: 20px;
-font-family: 'Chivo', sans-serif;
+
+.blogItem {
+    margin: 20px;
+    font-family: 'Chivo', sans-serif;
+}
+.blogcontainer{
+    margin: 88px;
 }
 
-.blogItem h1{
+h1 {
     font-family: 'Chivo', sans-serif;
     margin: 23px;
 }
 
-.blogItem p{
+p {
     font-family: 'Source Code Pro', monospace;
+}
+.intro{
+    margin: 88px;
+}
+.intro h2 {
+    font-family: 'Chivo', sans-serif;
+    margin: 12px;
+}
+
+.intro p {
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px;
+}
+
+.skillcontainer {
+    padding: 12px;
+}
+
+.skill {
+    width: 263px;
+    height: 4px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.skillitem {
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+
+}
+
+.hundered {
+    width: 265px;
+    background-color: blueviolet;
+}
+
+.fifty {
+    width: 125px;
+    background-color: aqua;
+}
+
+.t5 {
+    width: 75px;
+    background-color: yellow;
+}
+
+.sidebarGo {
+    transform: translate(-444px, 0px);
+    position: absolute;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.close {
+    margin-left: 145px;
+    margin-top: 10px;
+}
+
+@media (max-width: 1444px) {
+    * {
+        /* background-color: red; */
+    }
+
+    .devPic {
+        display: none;
+    }
+
+    /* .sidebar{
+    transform: translate(-444px, 0px);
+    position: absolute;
+} */
 }
